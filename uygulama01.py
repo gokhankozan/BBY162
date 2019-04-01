@@ -2,8 +2,7 @@
 cevaplar = ['a', 'c', 'b', 'b', 'a']
 puan = 0
 #soru1
-soru1 = "Türkiye\'nin başkent" \
-        "i aşağıdaki illerimiziden hangisidir? \nA)Ankara B)Bursa C)Trabzon"
+soru1 = "Türkiye\'nin başkenti aşağıdaki illerimiziden hangisidir? \nA)Ankara B)Bursa C)Trabzon"
 
 cevap = input(soru1 + "\n Lütfen cevabınızı giriniz: ")
 if cevaplar[0] == cevap.lower():
