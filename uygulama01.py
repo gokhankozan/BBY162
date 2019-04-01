@@ -7,7 +7,7 @@ soru1 = "Türkiye\'nin başkenti aşağıdaki illerimiziden hangisidir? \nA)Anka
 cevap = input(soru1 + "\n Lütfen cevabınızı giriniz: ")
 if cevaplar[0] == cevap.lower():
     print("Tebrikler")
-    puan += 1
+    puan += 2
 else:
     print("Üzgünüm! Cevabınız yanlış")
     puan -= 1
@@ -17,16 +17,16 @@ soru2 = "İstanbul\'un fethi kaç yılında gerçekleşmiştir? \nA)1563 B)1722 
 cevap = input(soru2 + "\n Lütfen cevabınızı giriniz: ")
 if cevaplar[1] == cevap.lower():
     print("Tebrikler")
-    puan += 1
+    puan += 2
 else:
     print("Üzgünüm! Cevabınız yanlış")
     puan -= 1
-    #soru3
+#soru3
 soru3 = "Futbolun kralı olarak bilinen Allah ayağına zeval vermesin dediğimiz eski futbolcu kimdir? \n A)Gheorge Hagi B)Alex de souza C)Tuncay Şanlı"
 cevap = input(soru3 + "\n Lütfen cevabınızı giriniz: ")
 if cevaplar[2] == cevap.lower():
     print("Tebrikler")
-    puan += 1
+    puan += 2
 else:
     print("Üzgünüm! Cevabınız yanlış")
     puan -= 1
@@ -35,7 +35,7 @@ soru4 ="\"Gönüldağı\" şarkışı hangi sanatçımıza aittir? \n A)Yıldız
 cevap = input(soru4 + "\n Lütfen cevabınızı giriniz: ")
 if cevaplar[3] == cevap.lower():
     print("Tebrikler")
-    puan += 1
+    puan += 2
 else:
     print("Üzgünüm!Yanlış cevap")
     puan -= 1
@@ -44,12 +44,12 @@ soru5 = "Edebiyatımızdaki ilk psikolojik roman aşağıdakilerden hangisidir? 
 cevap = input(soru5  + "\n Lütfen cevabınızı giriniz: ")
 if cevaplar[4] == cevap.lower():
     print("Tebrikler")
-    puan += 1
+    puan += 2
 else:
 
     print("Üzgünüm! Cevabınız yanlış")
     puan -= 1
-print ("Testi bitirdiniz,bu testen aldığınız puan: "+str(puan*20))
+print ("Testi bitirdiniz,bu testen aldığınız puan: "+str(puan*10))
 
 
 
