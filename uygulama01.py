@@ -1,4 +1,9 @@
-
+"""
+İsim:Gökhan , Soyisim:Kozan , No:21763436
+Testte iki yanlış bir doğruyu götürmektedir.
+"""
+print("Hoşgeldiniz")
+input("Başlamak için tıklayın") 
 cevaplar = ['a', 'c', 'b', 'b', 'a']
 puan = 0
 #soru1
@@ -49,7 +54,7 @@ else:
 
     print("Üzgünüm! Cevabınız yanlış")
     puan -= 1
-print ("Testi bitirdiniz,bu testen aldığınız puan: "+str(puan*10))
+print ("Testi bitirdiniz,bu testten aldığınız puan: "+str(puan*10))
 
 
 
